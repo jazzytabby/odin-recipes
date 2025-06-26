@@ -1,0 +1,59 @@
+/* 
+Light Blue #5BCEFA
+Pink #F5A9B8
+White #FFFFFF
+Brown #613915
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F5A9B8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card a {
+    border: 4px white solid;
+    background-color: white;
+    color: black;
+}
+
+.card a:hover {
+    background-color: #613915;
+    color: #FFFFFF;
+}
+
+#linkone {
+    margin-right: 50px;
+}
+
+
+#linkthree {
+    margin-left: 50px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 160px;
+    padding: 30px;
+    border: #5BCEFA solid 10px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
